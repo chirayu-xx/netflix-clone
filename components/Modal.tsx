@@ -1,3 +1,4 @@
+        // @ts-nocheck
 import { useEffect, useState } from 'react'
 import React from 'react'
 import { useRecoilState } from 'recoil'
@@ -145,6 +146,8 @@ function Modal() {
         </button>
 
         <div className="relative pt-[56.25%]">
+        
+        // @ts-nocheck
           <ReactPlayer
             url={`https://www.youtube.com/watch?v=${trailer}`}
             width="100%"
