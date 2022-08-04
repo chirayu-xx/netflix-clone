@@ -40,7 +40,7 @@ function Header() {
        <div className='flex items-center space-x-4 text-sm font-light'>
            
            <Link href='https://github.com/chirayu-xx' target='_blank'>
-               <p className='hidden lg:inline'>By Chirayu</p>
+               <p className='hidden lg:inline cursor-pointer'>By Chirayu</p>
            </Link>
          
            {/* <Link href='/account'> */}
