@@ -23,7 +23,6 @@ function Thumbnail({movie}:Props) {
         className="rounded-sm object-cover md:rounded"
         layout="fill"
       />
-          <h1>movie?.title</h1>
     </div>
   )
 }
