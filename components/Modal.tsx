@@ -128,7 +128,6 @@ function Modal() {
     }
   }
 
-  console.log(movies)
 
   return (
     <MuiModal
