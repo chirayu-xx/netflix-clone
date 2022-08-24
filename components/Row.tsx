@@ -34,7 +34,6 @@ function Row({title, movies}: Props) {
                     
                 ))}
             </div>
-            <h1>movies.title</h1>
             <ChevronRightIcon className={`absolute top-0 bottom-0 right-2 z-40 m-auto h-9 w-9 opacity-0 cursor-pointer transition hover:scale-125 group-hover:opacity-100 `} onClick={() => handleClick("right")}/>
         </div>
     </div>
