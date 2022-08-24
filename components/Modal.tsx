@@ -128,7 +128,7 @@ function Modal() {
     }
   }
 
-  console.log(addedToList)
+  console.log(movies)
 
   return (
     <MuiModal
